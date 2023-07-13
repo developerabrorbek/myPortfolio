@@ -1,10 +1,11 @@
 import Header from "../../components/Header";
+import "./main.css";
 
 const Home = () => {
   return (
-    <div className="home h-[100vh] bg-[#f66d69]">
+    <div className="home h-[100vh] bg-[#f66d69]  slide-right">
       <Header />
-      <main className="main flex h-3/4">
+      <main className="main flex h-3/4 slide-top">
         <div className="main container mx-auto">
           <div className="main-body h-full flex flex-col items-center justify-center gap-y-6">
             <h1 className="main-body__title text-[42px] text-white">

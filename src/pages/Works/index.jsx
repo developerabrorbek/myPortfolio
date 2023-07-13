@@ -2,9 +2,20 @@ import Header from "../../components/Header";
 
 const Works = () => {
   return (
-    <div>
+    <div className="home h-[100vh] bg-[#27365A]">
       <Header />
-      <h1>Works</h1>
+      <main className="main flex h-3/4">
+        <div className="main container mx-auto">
+          <div className="main-body h-full flex flex-col items-center justify-center gap-y-6">
+            <h1 className="main-body__title text-[42px] text-white">
+              Here is my some works
+            </h1>
+            <ul>
+              <li>HTML</li>
+            </ul>
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

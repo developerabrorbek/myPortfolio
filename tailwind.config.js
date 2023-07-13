@@ -9,9 +9,9 @@ export default {
           "100%": { transform: "rotateY(360deg)" },
         },
       },
-      animation : {
-        skill : 'skill 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both'
-      }
+      animation: {
+        skill: "skill 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both",
+      },
     },
   },
   plugins: [],

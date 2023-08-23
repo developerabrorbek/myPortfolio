@@ -3,6 +3,7 @@ import Nature from "../../assets/nature.jpg";
 import CodeIcon from "../../assets/icons/code.svg";
 import DemoIcon from "../../assets/icons/demo.svg";
 import "./main.css";
+import DownloadBtn from "../../components/Downloader";
 
 const Works = () => {
   const activateOpacity = () => {
@@ -31,7 +32,7 @@ const Works = () => {
     <div className="home min-h-[100vh] bg-[#071952] slide-top">
       <Header />
       <main className="main flex h-3/4">
-        <div className="main container mx-auto">
+        <div className="main container mx-auto relative">
           <div className="main-body h-full flex flex-col items-center justify-center gap-6">
             <h1 className="main-body__title text-[48px] text-white tracking-wider mb-5">
               Projects

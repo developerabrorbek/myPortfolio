@@ -1,3 +1,4 @@
+import DownloadBtn from "../../components/Downloader";
 import Header from "../../components/Header";
 import "./main.css";
 
@@ -9,7 +10,7 @@ const Contact = () => {
     <div className="home h-[100vh] bg-[#2A5461] slide-left">
       <Header />
       <main className="main flex h-3/4">
-        <div className="main container mx-auto">
+        <div className="main container mx-auto relative">
           <div className="main-body h-full flex flex-col items-center justify-center gap-y-6">
             <h1 className="main-body__title text-[42px] text-center max-w-[600px] text-white">
               I&apos;m happy to work with you! How can I help you?
@@ -54,7 +55,7 @@ const Contact = () => {
               </div>
             </form>
 
-            <div className="socials flex gap-3 absolute bottom-6">
+            <div className="socials flex gap-3 absolute -bottom-20">
               <a
                 href="#"
                 className="text-[#0b1b37] hover:animate-bounce transition-all hover:text-red-500"
@@ -109,6 +110,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
+          <DownloadBtn/>
         </div>
       </main>
     </div>

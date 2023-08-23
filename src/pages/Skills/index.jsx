@@ -4,7 +4,7 @@ import "./main.css";
 const Skills = () => {
 
   return (
-    <div className="home h-[100vh] bg-[#01918d] slide-top">
+    <div className="home h-[100vh] bg-[#01918d] slide-bottom">
       <Header />
       <main className="main flex h-3/4">
         <div className="main container mx-auto">

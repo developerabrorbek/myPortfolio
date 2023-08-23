@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
-    <header className="header py-4">
+    <header className="header p-4">
       <div className="container mx-auto max-w-7xl">
         <nav>
           <ul className="list-items flex items-center gap-x-8 justify-end">

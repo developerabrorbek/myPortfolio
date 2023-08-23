@@ -1,5 +1,6 @@
-import Header from "../../components/Header";
 import "./main.css";
+import { Link } from "react-router-dom";
+import Header from "../../components/Header";
 
 const Home = () => {
   return (
@@ -15,12 +16,12 @@ const Home = () => {
               I am a FrontEnd developer
             </p>
             <div className="main-actions flex gap-x-6">
-              <button className="main-body__btn w-36 bg-transparent hover:bg-[#01908c] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
+              <Link to="/works" className="main-body__btn transition-colors w-36 text-center bg-transparent hover:bg-[#01908c] text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded">
                 See my works
-              </button>
-              <button className="main-body__btn w-36 hover:bg-transparent bg-[#01908c] text-white font-semibold hover:text-white py-2 px-4 hover:border hover:border-white hover:border-transparent rounded">
+              </Link>
+              <Link to="/contact" className="main-body__btn transition-colors w-36 text-center hover:bg-transparent bg-[#01908c] text-white font-semibold hover:text-white py-2 px-4 hover:border hover:border-white hover:border-transparent rounded">
                 Say hello🖐🏻
-              </button>
+              </Link>
             </div>
           </div>
         </div>

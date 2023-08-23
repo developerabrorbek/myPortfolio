@@ -4,11 +4,11 @@ import "./main.css";
 const Skills = () => {
 
   return (
-    <div className="home h-[100vh] bg-[#01918d]">
+    <div className="home h-[100vh] bg-[#01918d] slide-top">
       <Header />
       <main className="main flex h-3/4">
         <div className="main container mx-auto">
-          <div className="main-body h-full flex flex-col items-center justify-center gap-y-6">
+          <div className="main-body h-full slide-left flex flex-col items-center justify-center gap-y-6">
             <h1 className="main-body__title text-[42px] text-white">
               My skills
             </h1>
